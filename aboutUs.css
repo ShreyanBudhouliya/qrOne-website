@@ -1,0 +1,132 @@
+@font-face{
+    font-family: 'ManRope';
+    src: url(fonts/Manrope-Regular.ttf) format('truetype'),
+         url(fonts/Manrope-Regular.otf) format('opentype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'ManRope';
+    src: url(fonts/Manrope-SemiBold.ttf) format('truetype'),
+         url(fonts/Manrope-SemiBold.otf) format('opentype'); 
+    font-weight: bold;
+}
+html{
+    height: 100vh;
+}
+.flexbox-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top: 1%; /* Change this according to font*/
+}
+h1{
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 10%;
+   /* font-size: 450%; */
+    font-size: 100px;
+    font-family: 'ManRope', sans-serif;
+    font-weight: bold;
+}
+p{
+    line-height: 1;
+    margin-bottom: 30px;
+    padding-left: 12%;
+  /*  font-size: 130%; */
+    font-size: 25px;
+    font-family: 'ManRope', sans-serif;
+    font-weight: normal;
+}
+h3 {
+    text-align: right;
+    
+}
+.flexbox-item-1{
+    min-height: 100px;
+}
+.flexbox-item-2{
+    min-height: 200px;
+    padding-left: 2%;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+@media(max-width: 380px){
+    h1{
+        text-align: left;
+        padding-left: 12%;
+        padding-top: 8%;
+        font-size: 66px;
+        font-family: 'ManRope', sans-serif;
+        font-weight: bold; 
+    }
+    p{
+        margin-bottom: 30px;
+        padding-left: 12%;
+        font-size: 18px;
+        font-family: 'ManRope', sans-serif;
+        font-weight: normal;
+    }
+    .flexbox-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 1%; /* Change this according to font*/
+    }
+    img{
+        width: 250px;
+        height: 180px;
+        padding-left: 17%;
+    }
+}
+@media (min-width: 381px) and (max-width: 430px){
+    h1{
+        text-align: left;
+        padding-left: 12%;
+        padding-top: 8%;
+        font-size: 78px;
+        font-family: 'ManRope', sans-serif;
+        font-weight: bold; 
+    }
+    p{
+        margin-bottom: 30px;
+        padding-left: 12%;
+        font-size: 21px;
+        font-family: 'ManRope', sans-serif;
+        font-weight: normal;
+    }
+    .flexbox-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-top: 1%; /* Change this according to font*/
+    }
+    img{
+        width: 350px;
+        height: 230px;
+        padding-left: 6%;
+    }
+}
