@@ -113,20 +113,20 @@ a:active {
 @media (max-width: 340px){
     h3{
         text-align: right;
-        padding-top: 90%;
+        padding-top: 110%;
         padding-left: 50%;
     }
 }
 @media (min-width: 341px) and (max-width: 380px){
     h3{
         text-align: right;
-        padding-top: 105%;
+        padding-top: 125%;
         padding-left: 80%;
     }
 }
 @media (min-width: 381px) and (max-width: 430px){
     h3{
         text-align: right;
-        padding-top: 150%;
+        padding-top: 170%;
     }
 }
