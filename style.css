@@ -113,7 +113,7 @@ a:active {
 @media (max-width: 340px){
     h3{
         text-align: right;
-        padding-top: 110%;
+        padding-top: 120%;
         padding-left: 50%;
     }
 }
